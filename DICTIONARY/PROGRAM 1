@@ -1,0 +1,10 @@
+Q1. WRITE A [YTHON PROGRAM TO CREATE A DICTIONARY CONTAINING NAMES OF COMPETITION WINNER STUDENTS AS KEYS AND NUMBERS OF THEIR WINS AS VALUES?
+ANs:
+ n=int(input("How many Students"))
+com={}
+for a in range(n):
+    key=input("name of the student")
+    value=int(input("no of competition won:"))
+    com[key]=value
+print("The Dictionary now is:")
+print(com)

@@ -1,0 +1,6 @@
+myfile=open("naman.txt","r")
+str=myfile.read(30)
+print(str)
+st2=myfile.read(50)
+print(st2)
+myfile.close()

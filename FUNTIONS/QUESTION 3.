@@ -1,0 +1,10 @@
+def myfunc(a):
+    print("inside function")
+    print("value revieved in a as",a)
+    a=a+2
+    print("a changes to",a)
+    print("Returning from function")
+num=3
+print("Calling myfunc() by passing 'num' as ",num)
+myfunc(num)
+print("After calling myfunc() 'num' as",num)

@@ -1,0 +1,4 @@
+def interest(principal,t=2,rate=0.10):
+    return principal*rate*t
+a=float(input("Enter Principal"))
+print(interest(a))

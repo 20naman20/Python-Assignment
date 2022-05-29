@@ -1,0 +1,5 @@
+         file=open("Naman.txt","r")
+         str=file.read()
+         size=len(str)
+         print("size of the given line is ")
+         print(size,"bytes")

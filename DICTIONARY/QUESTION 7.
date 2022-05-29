@@ -1,0 +1,10 @@
+favlang={}
+a=input("enter your favourite language 1 ")
+b=input("enter your favourite language 2")
+c=input("enter your favourite language 3")
+d=input("enter your favourite language 4")
+favlang['1']=a
+favlang['2']=b
+favlang['3']=c
+favlang['4']=d
+print(favlang)

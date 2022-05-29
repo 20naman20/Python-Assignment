@@ -1,0 +1,12 @@
+import numpy as np
+         aa=[]
+         r,c=list(map(int,input('Enter').split()))
+         for i in range(c):
+             for j in range(r):
+                 a=int(input('Enter'))
+                 aa.append(a)
+         aa=np.array(aa)
+         aa=np.reshape(r,c))
+         print(np.transpose(aa))
+         print(np.ravel(aa))
+

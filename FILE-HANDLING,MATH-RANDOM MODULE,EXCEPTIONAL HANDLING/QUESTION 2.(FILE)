@@ -1,0 +1,4 @@
+         file=open("palak.txt","r")
+         s=file.readlines()
+         print(s)
+         file.close()

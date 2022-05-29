@@ -1,0 +1,8 @@
+         file=open('naman.txt','r')
+         str=file.readline()
+         print(str,end='')
+         str=file.readline()
+         print(str,end='')
+         str=file.readline()
+         print(str,end='')
+         file.close()

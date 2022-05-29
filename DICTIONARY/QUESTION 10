@@ -1,0 +1,4 @@
+dict={'a':1, 'b':2, 'c':3}
+b=a.items()
+for i,j in b:
+    print(i,'=',j)

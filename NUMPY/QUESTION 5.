@@ -1,0 +1,8 @@
+import numpy as np
+a=list(map(int,input("Enter").split()))
+if len(a)==9:
+    m=np.array(a)
+    m=m.reshape((3,3))
+    print(m)
+else:
+    print("No. of ELEMENTS does not fulfilled")

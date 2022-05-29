@@ -1,0 +1,4 @@
+         def vote(a):
+             return a>=18
+         a=int(input('Enter the age'))
+         print(vote(a))

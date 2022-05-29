@@ -1,0 +1,12 @@
+def caseCounter(s):
+    d={"UPPER_CASE":0,"LOWER_CASE":0}
+    for c in s:
+        if c.isupper():
+            d['UPPER_CASE'] += 1
+        elif c.lower():
+                d['LOWER_CASE'] += 1
+        else:
+            pass
+    print(f"No. of uppercase characters: {d['UPPER_CASE']}") 
+    print(f"No. of lowercase characters: {d['LOWER_CASE']}") 
+caseCounter(input("Enter"))

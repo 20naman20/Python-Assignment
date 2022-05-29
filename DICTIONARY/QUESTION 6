@@ -1,0 +1,5 @@
+         mydict={}
+         if(len(my_dict)==0):
+             print('my dictionary is empty')
+         else:
+             print('my dictionary is not empty')

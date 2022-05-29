@@ -1,0 +1,11 @@
+import json
+sen="This is a super idea this idea will change the idea of learning"
+words=sen.split()
+d={}
+for i in words:
+    key=i
+    if key not in d:
+        count=words.count(key)
+        d[key]=count
+print(words)
+print(json.dumps(d,indent=1))
